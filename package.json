@@ -4,7 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
   },
-  "private": true
+  "type": "module",
+  "keywords": [],
+  "private": true,
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.1",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "nodeman": "^1.1.2"
+  }
 }
